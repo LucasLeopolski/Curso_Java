@@ -1,0 +1,8 @@
+public class Main{					      // nome da classe - podemos ter várias classes dentro do programa, mas é necessário que tenha pelo menos uma classe. 
+	
+	public static void main(String[] args){                              // public static void main é a função e é onde ocorre a execução do nosso algoritmo. O algoritmo é digitado entre {} assim como está o comando System.out.println  - todo 						         programa executável precisa de pelo menos uma declaração de função. 
+	          System.out.println("Olá mundo");     	    //System.out.println é um comando para imprimir uma mensagem na tela do usuário. A mensagem fica entre parenteses e aspas.
+
+}
+
+}
