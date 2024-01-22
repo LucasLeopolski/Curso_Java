@@ -1,0 +1,17 @@
+Formatação char na entrada de dados para pegar apenas o primeiro caracter: 
+	char deposito = ler.next().charAt(0);
+
+
+--Get e Set
+	* Quando o meu atributo privado sofrer alterações apenas por um método eu não crio o set dele; 
+
+
+
+
+
+
+
+
+
+
+
