@@ -1,0 +1,10 @@
+COMO UTILIZAR O DEBUG (ECLIPSE) 
+
+	* Para marcar uma linha de breakpoint: 
+		+ Run >> Toggle Breakpoint;
+	* Iniciar o Debug: 
+		+ Botão direito na classe >> Debug as >> Java Application 
+	* Executar uma linha:
+		+ F6
+	* Interromper o Debug: 
+		+ Clico sobre o botão branco com um quadradinho vermelho no centro; 

@@ -1,0 +1,76 @@
+* OPERADORES ARITMÉTICOS
+	
+	* Operador: 
+		* Adição: +
+		* Subtração: -
+		* Multiplicação: *
+		* Divisão: /
+		* Resto da divisão (mod): %
+	
+	* Precedência: 1º Lugar: * / %; 2º Lugar: +-
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* SAIDA DE DADOS: 
+	
+	* Onde o programa informa dados para o usuaário;
+	* Também chamda de escrita;
+	* Comando: System.out.print() e System.out.println("println tem quebra de linha");
+	* Imprimir dados de ponto flutuante: System.out.printf("%.4f/n", x) // imprimindo com 4 casas decimais;
+	* Comando para tranformar , em . : Locale.setDefault(Locale.US);
+	* MARCADORES DE VARIAVEIS:
+		* Ponto Flutuante: %f
+		* Inteiro: %d
+		* Texto: %s
+		* Quebra de linha: %n
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+* ENTRADA DE DADOS:
+
+	
+	* Preciso criar um objeto do tipo Scanner: Scanner sc = new Scanner(System.in); - Temos que importar a biblioteca scanner e também preciso fechar a entrada pelo comando sc.close();
+	* Ler int: sc.nextInt();
+	* Ler double: sc.nexDouble(); // tenho que digitar numero com (,). Pra ler numero com o (.) tenho que importar o Locale: Locale.setdefault(Locale.US)
+	* Ler String=: sc.next(); // vai ler apenas uma palavra
+	* Ler String = sc.nextLine(); // vai ler até a quebra de linha (enter)
+	* Ler char: sc.nex().charAt(); // vai pegar o primeiro caracter digitado 
+	
+
+
+
+
+
+* Quebra de linha pendente (lixo de memória)(limpar buffer):
+
+	* Quando lê algum tipo de dado antes do nextLine (pode ser int, double....) ele vai pegar o enter que vou dar para pular uma linhabe salvar no primeiro nextLine() que eu declarei, para resolver isso posso colocar antes 	  	   do nextLine() que eu vou ler a entrada um outro nextLine(), dessa forma o enter que dei vai ocupar o primeiro nextLine() e o meu utilizado para ler a entrada de dados não será afetado. 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+* FUNÇÕES MATEMÁTICAS DO JAVA: 
+
+	* Raiz Quadrada: A = Math.sqrt(x); // significa que a variavél A esta recebendo o valor da raiz quadarada da variavél x;
+	* Exponenciação: A = Math.pow(x,y); // variavel A recebe o resultado da variavel x elevada a variavel y (no lugar de y posso colocar um número, por exemplo x elevado a 2);
+	* Valor absoluto: A = Math.abs(x); // a variavél A recebe o valor absoluto de x. (sem o negativo, caso ele exixta); 
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+											ANOTAÇÕES
+									
+
+
+									CTRL + SHIFT + F = identação (organizar o código) 
+
+
+
+
+
+
+
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

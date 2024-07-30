@@ -1,0 +1,133 @@
+EXPRESSÕES COMPARATIVAS:
+
+	* Quando avalia a expressão o resultado deve ser um valor verdade. (expresão --> valor verdade) Ex:
+		5 > 10 --> Falso (aqui a expressão está inoformando que 5 é maior que 10, o resultado é falso); 
+
+OPERADORES COMPARATIVOS: 
+	
+	> maior
+	< menor 
+	>= maior ou igual 
+	<= menor ou igual
+	== igual
+	!= diferente 
+
+------------------------------------------------------------------------
+
+EXPRESSÕES COMPARATIVAS:
+	
+	* Assim como as expressões comparativas, as expressões lógicas quando são analizadas resultam em um valor verdade; 
+
+OPERADORES LÓGICOS:
+	
+	&& e	(todas as condições devem ser verdadeira)
+	|| ou	(uma das condições devem ser verdadeira)
+	! não 	(inverte a condição)
+
+
+------------------------------------------------------------------------
+
+ESTRUTURA CONDICIONAL:
+
+	* É uma estrutura de controle que permite bdefinir se um bloco de comandos somente será executado dependendo de uma condição. 
+
+	* Condição Simples: (se a condição for V vai executar os comandos entre(). Se for F vai pular fora)
+		if (condicao){
+			comando1
+			comando2
+		}
+	
+	* Condição Composta: (V executa só o bloco if. F executa somente o bloco else)
+		if (condicao){
+			comando1
+			comando2
+
+		}else{
+			comando3
+			comando4
+		}
+
+	* Encadeamento: 
+		if (condicao){
+			comando1
+			comando2
+
+		}else if (condicao2){
+			comando3
+			comando4
+
+		}else {
+			comando5
+			comando6
+		}
+
+
+
+
+------------------------------------------------------------------------
+
+SWITCH-CASE
+	
+	*  É usada quando se tem várias opções de fluxo a serem tratadas com base no valor de uma váriavel, ao invés de várias estruturas if-else encadeadas.
+	int diaSemana;
+	String dia;
+
+	switch(diaSemana){
+	case 1: 
+	      dia = "Domingo";
+	      break;           // é pobrigatório colocar o break no final 
+	case 2: 
+	      dia = "Segunda";
+	      break;
+	case 3: 
+	      dia = "Terca";
+	      break;
+	case 4: 
+	      dia = "Quarta";
+	      break; 
+	case 5: 
+	      dia = "Quinta";
+	      break;
+	case 6: 
+	      dia = "Sexta";
+	      break;
+	case 7: 
+	      dia = "Sabado";
+	      break;
+	default:
+		dia = "valor invalido";
+		break;
+
+}
+
+
+------------------------------------------------------------------------
+
+EXPRESSÃO CONDICIONAL TERNARIA
+
+	* Estrutura opcional ao if-else quando se deseja decidir um valor com base em uma condição. EX:
+		
+		(condicao) ? valor_se_verdadeiro : valor_se_falso
+
+		(2 > 4) ? 50 : 80  // o resultado vai ser 80 pois a condição é falsa
+		(10 != 3) ? "Maria" : "Alex" // resultado vai ser Maria, pois a condição é verdadeira
+
+
+
+	* Ex usando if else e condicional ternaria:
+
+	if(preco < 20.0){
+		desconto = preco * 0.1;
+	}
+	else{
+		desconto = preco * 0.5
+	}
+
+
+
+	double deconto = (preco <20.0) ? preco * 0.1 : preco * 0.5;
+
+
+
+
+------------------------------------------------------------------------
